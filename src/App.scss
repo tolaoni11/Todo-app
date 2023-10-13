@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  border: blue 1px dotted;
 }
 
 body {
@@ -9,4 +10,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
 }
