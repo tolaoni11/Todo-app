@@ -1,0 +1,25 @@
+.add {
+  margin-top: 20px;
+
+  display: flex;
+  gap: 10px;
+
+  &__text {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    outline: none;
+    border: 1px #ccc solid;
+  }
+
+  &__btn {
+    font-size: 40px;
+    background-color: #8f4de6;
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+  }
+}
